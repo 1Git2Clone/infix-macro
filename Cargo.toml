@@ -1,6 +1,6 @@
 [package]
 name = "infix_fn"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 license = "MIT"
 description = "Procedural macro used to make infix function calls similarly to Haskell's syntax with pound (#) instead of backticks (`)"
