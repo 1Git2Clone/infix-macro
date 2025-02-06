@@ -22,7 +22,7 @@ Haskell's syntax (`#` instead of `\``).
 ## Example
 
 ```rust
-use infix_macro::infix;
+use infix_fn::infix;
 
 // Function definition:
 fn add(lhs: i32, rhs: i32) -> i32 {
