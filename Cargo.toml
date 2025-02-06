@@ -1,0 +1,13 @@
+[package]
+name = "infix_fn"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+description = "Procedural macro used to make infix function calls similarly to Haskell's syntax with pound (#) instead of backticks (`)"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+quote = { version = "1.0.38" }
+syn = { version = "2.0.98", features = ["derive", "parsing"] }
